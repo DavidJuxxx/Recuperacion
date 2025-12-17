@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECUPERACION</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body >
+    <div class="container">
+        <h1>LISTA DE TAREAS</h1>
+
+        <hr>
+
+        <div class="form-floating mb-3">
+            <input
+                type="text"
+                class="form-control"
+                name="formId1"
+                id="text_nombre_tarea"
+                placeholder=""
+                autofocus
+            />
+            <label for="text_nombre_tarea">INGRESA UNA TAREA</label>
+        </div>
+        
+        <div class="d-grid gap-2">
+            <button
+                type="button"
+                name=""
+                id="btn_guardar_tarea"
+                class="btn btn-success"
+            >
+                GUARDAR TAREA
+            </button>
+        </div>
+
+        <div class="list-group pt-2" id="lista_tareas">
+
+        </div>
+
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./public/js/tareas.js"></script>
+</body>
+</html>
